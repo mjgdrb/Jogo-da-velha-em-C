@@ -7,5 +7,5 @@ jogodavelha1-2 == User Vs User -> validarVencedor() mais bonito
 
 jogodavelha2-1 == User Vs Pc -> tabuleiro simples +  validarVencedor mais bonito
 
-jogodavelha2-2 == User Vs Pc -> funcao inicarTabuleiro() +  validarVencedor mais bonito + cls (clear screen) + titulo 
+jogodavelha2-2 == User Vs Pc -> funcao inicarTabuleiro() +  validarVitoria mais bonito + cls (clear screen) + titulo 
 
