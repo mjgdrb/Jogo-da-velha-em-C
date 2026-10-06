@@ -41,6 +41,7 @@ void validarVitoria(char r){
 
     if (parar) {
         system("cls"); // Limpa para mostrar o tabuleiro final
+        printf("*** JOGO DA VELHA ***");
         mostrarTabuleiro();
         if (r == 'X') {
             printf("\n==== VOCE (X) VENCEU! ====\n");
@@ -56,7 +57,9 @@ int main(){
     srand(time(NULL));
     
     while(!parar){
-        system("cls"); // Mantém o terminal limpo a cada jogada
+        system("cls"); 
+        
+        printf("*** JOGO DA VELHA ***");
         mostrarTabuleiro();
 
         if(rodada == 'X'){
@@ -72,7 +75,7 @@ int main(){
 
             if((linha < 0) || (linha > 2) || (coluna < 0) || (coluna > 2)){
                 printf("\n=== POSICAO INVALIDA ===\n");
-                Sleep(tempoLeitura); // Dá tempo do jogador ler o aviso antes de limpar a tela
+                Sleep(tempoLeitura); 
                 continue;
             }
             if(tabuleiro[linha][coluna] != ' '){
@@ -102,6 +105,7 @@ int main(){
 
         if(jogadas == 9){
             system("cls");
+            printf("*** JOGO DA VELHA ***");
             mostrarTabuleiro();
             printf("\n==== EMPATE! ====\n");
             break;
