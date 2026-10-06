@@ -70,6 +70,8 @@ void validarVitoria(char r){
 
 int main(){
     SetConsoleOutputCP(CP_UTF8);
+    
+    iniciarTabuleiro();
 
     srand(time(NULL));
     
