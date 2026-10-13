@@ -3,6 +3,7 @@
 #include <stdbool.h>
 #include <time.h>
 
+// VARIÁVEIS
 char tabuleiro[3][3];
 bool parar = false;
 char rodada = 'X';
@@ -12,7 +13,11 @@ int coluna = 0;
 int tempoPc = 1500; 
 int tempoLeitura = 1200;
 
+// ==========================================
+// FUNÇÃO DE INICIAR O TABULEIRO
+// ==========================================
 void iniciarTabuleiro(){
+    // Inicia o Tabuleiro com Espaços ' '
     for(int i = 0; i<3; i++){
         for(int j = 0; j<3; j++){
             tabuleiro[i][j] = ' ';
@@ -20,7 +25,11 @@ void iniciarTabuleiro(){
     }
 }
 
+// ==========================================
+// FUNÇÃO DE MOSTRAR O TABULEIRO
+// ==========================================
 void mostrarTabuleiro(){
+    // Printa o Tabuleiro Organizado
     printf("\n   1   2   3\n");
     for(int i = 0; i < 3; i++){
         printf("%d ", i+1);
@@ -32,7 +41,7 @@ void mostrarTabuleiro(){
 }
 
 // ==========================================
-// FUNÇÃO DE JOGADA DO JOGADOR (Com Proteção)
+// FUNÇÃO DE JOGADA DO JOGADOR
 // ==========================================
 bool jogadaJogador(){
     printf("\n=> Seu turno (X)!\n");
@@ -125,7 +134,7 @@ int main(){
         mostrarTabuleiro();
 
         if(rodada == 'X'){
-            // Se a jogada for inválida, reinicia a iteração do loop
+            // Se a jogada for inválida, reinicia o loop
             if(!jogadaJogador()){
                 continue;
             }
@@ -143,7 +152,7 @@ int main(){
             break;
         }
 
-        if(jogadas == 9){
+        if(jogadas == 9){                       
             system("cls");
             printf("*** JOGO DA VELHA ***\n");
             mostrarTabuleiro();
