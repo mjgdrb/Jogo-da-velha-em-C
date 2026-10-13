@@ -9,3 +9,5 @@ jogodavelha2-1 == User Vs Pc -> tabuleiro simples +  validarVencedor mais bonito
 
 jogodavelha2-2 == User Vs Pc -> funcao inicarTabuleiro() +  validarVitoria mais bonito + cls (clear screen) + titulo 
 
+jogo-da-velha-oficial-3 == User Vs Pc -> todas as funcoes + alguns comentarios + tratamento de erros (versao final 13/10)
+
