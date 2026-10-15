@@ -1,3 +1,24 @@
+// DOCUMENTO DE APRESENTACAO DO JOGO:
+
+// Integrantes do grupo: Lucas Lima e Maria Julia Gadelha.
+// Regras e funcionamento do jogo: Um espaco de um quadrado 3x3 deve ser ppor um jogador por circulo e pelo outro por x, vence quem fechar 3 simboloes em horizontal, vertical ou diagonal.
+//                                Caso o tabuleiro seja preenchido e nao forme essas condicoes, o jogo "velha" ou seja, empata.
+// Estrutura de dados: Declaracao de variaveis, condicoes, intervalos de repeticao definidos, repeticoes por condicao, bibliotecas e funcoes.
+// Principais Funcoes: iniciar o jogo, mostrar o tabuleiro, jogadad do jogador, jogada da maquina, funcao de validacao de vitoria e a funcao principal.
+// Exemplos de execucao: Inicio de jogo, ( interface inicial):
+// =======================================
+//         ***Jogo da Velha***
+//             1   2  3
+//           1 [] [] []
+//           2 [] [] []
+//           3 [] [] []
+//           Seu turno(X)!
+//           Insira linha:
+//           Insira coluna:
+// =======================================
+// Dificuldades: refletir a primeiro viez as funcionalidades do jogo, separar a ideia geral do jogo em blocos de funcoes e trascricao da ideia para o codigo.
+// Solucoes: Trabalho em equipe, dedicacao ao projeto e revisao dos slides e dos materiais didaticos.
+
 #include <stdio.h>
 #include <windows.h>
 #include <stdbool.h>
