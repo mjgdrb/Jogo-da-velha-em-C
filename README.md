@@ -1,13 +1,7 @@
 # Jogo-da-velha-em-C
 Codigos de jogo da velha em C
 
-jogodavelha1-1 == User Vs User -> simples e basico
-
-jogodavelha1-2 == User Vs User -> validarVencedor() mais bonito
-
-jogodavelha2-1 == User Vs Pc -> tabuleiro simples +  validarVencedor mais bonito
-
-jogodavelha2-2 == User Vs Pc -> funcao inicarTabuleiro() +  validarVitoria mais bonito + cls (clear screen) + titulo 
 
 jogo-da-velha-oficial-3 == User Vs Pc -> todas as funcoes + alguns comentarios + tratamento de erros (versao final 13/10)
 
+ExplicacaoJogoDaVelha001.docx e .pdf -> documentacao completa
