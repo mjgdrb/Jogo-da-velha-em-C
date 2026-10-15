@@ -2,6 +2,6 @@
 Codigos de jogo da velha em C
 
 
-jogo-da-velha-oficial-3 == User Vs Pc -> todas as funcoes + alguns comentarios + tratamento de erros (versao final 13/10)
+jogo-da-velha-oficial-3 (versao final 15/10)
 
-ExplicacaoJogoDaVelha001.docx e .pdf -> documentacao completa
+ExplicacaoJogoDaVelha001.docx e .pdf -> documentacao completa (versao final 15/10)
